@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Speed Typing Game</title>
+
+<link rel="stylesheet" href="style.css">
+
+
+
+<link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans|Nova+Mono|Roboto+Condensed" rel="stylesheet">
+  </head>
+  <body>
+    <h1><small>Day #4</small></h1>
+    <h1>Speed Typing Game</h1>
+
+
+
+    <div class="sandbox">
+
+      <div class="container">
+
+        
+        <p class="lead"> Type The Given Word Within <span class="success" id="seconds"></span> Seconds :</p>
+
+        <h2 id="currentWord" style="text-align: center;"></h2>
+
+        <input type="text" id="wordInput" placeholder="Start Typing" autofocus>
+        <h4 id="message"></h4>
+
+        <hr>
+<!--TIME & SCORE  -->
+        <div>
+          <h3>Time left:
+              <span id="time"></span>
+          </h3>
+        </div>
+        <div>
+          <h3>Score:
+              <span id="score">0</span>
+          </h3>
+        </div>
+
+
+
+      </div>
+    </div>
+
+<script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
